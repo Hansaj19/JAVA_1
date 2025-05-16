@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Palindrome {
     public static void main(String[] args){
         @SuppressWarnings("resource")
-        
+        Scanner jin = new Scanner(System.in);
         int n;
         System.out.println("Enter the number: ");
         n=jin.nextInt();
